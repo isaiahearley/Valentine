@@ -1,0 +1,62 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(125, 173, 48);
+    text-align: center;
+}
+
+header {
+    margin-top: 40px;
+    top: 30%;
+}
+
+main {
+    margin-top: 40px;
+    top: 30%;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+.borderradius {
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+}
+
+#yes {
+    background-color: rgb(102, 192, 0);
+    padding: 1% 5%;
+    font-size: 1.2em;
+    color: black;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+#yes:hover {
+    background-color: rgb(151, 245, 0);
+    transition: 0.5s;
+}
+
+#no {
+    background-color: rgb(221, 112, 93);
+    padding: 1% 5%;
+    font-size: 1.2em;
+    color: black;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+#no:hover {
+    background-color: rgb(240, 33, 33);
+    transition: 0.5s;
+}
